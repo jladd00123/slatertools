@@ -408,6 +408,8 @@ var GREENSKEEPER = window.GREENSKEEPER || {};
 		$(window).resize(function(){
 			if($(window).width() >= 1200){
 				$('.sf-menu').show();
+			} else {
+				$('.sf-menu').hide();
 			}
 		});
 		//$(".dd-menu > li:has(ul)").find("a:first").append(" <i class='fa fa-angle-down'></i>");
