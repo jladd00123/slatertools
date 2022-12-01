@@ -3229,7 +3229,7 @@ body.boxed .is-sticky .main-navigation{
 @media (max-width:992px){
 	li.parallax {
 		background-size: cover;
-		background-position: left;
+		background-position: center;
 		
 	}
 }
@@ -3312,7 +3312,7 @@ body.boxed .is-sticky .main-navigation{
 		float:left!Important;
 	}
 	.dd-menu{
-		display:none !important;
+		display:none;
 		position:absolute;
 		width:100%;
 		background:#555;
@@ -3323,7 +3323,7 @@ body.boxed .is-sticky .main-navigation{
 	.dd-menu > li{
 		width:100%;
 		float:none;
-		display:none;
+		display:inline;
 	}
 	#menu-toggle{
 		display:inline-block;
