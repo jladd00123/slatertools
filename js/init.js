@@ -406,7 +406,7 @@ var GREENSKEEPER = window.GREENSKEEPER || {};
 			  disableHI: true
 		});
 		$(window).resize(function(){
-			if($(window).width() >= 992){
+			if($(window).width() >= 1200){
 				$('.sf-menu').show();
 			}
 		});

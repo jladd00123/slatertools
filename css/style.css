@@ -1561,7 +1561,7 @@ body.boxed .is-sticky .main-navigation{
 	color: white; 
 	font-size: 11pt; 
 	align-content: center;
-	display: flex;
+	//display: flex;
 }
 
 .dd-menu > li.megamenu.sfHover {
@@ -3312,8 +3312,7 @@ body.boxed .is-sticky .main-navigation{
 		float:left!Important;
 	}
 	.dd-menu{
-		display:none !important;
-		position:absolute;
+		display:none;
 		width:100%;
 		background:#555;
 		top:100%;
@@ -3323,7 +3322,6 @@ body.boxed .is-sticky .main-navigation{
 	.dd-menu > li{
 		width:100%;
 		float:none;
-		display:inline;
 	}
 	#menu-toggle{
 		display:inline-block;
@@ -3335,7 +3333,7 @@ body.boxed .is-sticky .main-navigation{
 		padding: 15px 25px;
 	}
 	.dd-menu > li.megamenu{
-		position:static!important;
+		//position:static!important;
 	}
 	.dd-menu > li:last-child{
 		margin-bottom:25px;
