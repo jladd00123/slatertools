@@ -3312,7 +3312,7 @@ body.boxed .is-sticky .main-navigation{
 		float:left!Important;
 	}
 	.dd-menu{
-		display:none;
+		display:none !important;
 		position:absolute;
 		width:100%;
 		background:#555;
