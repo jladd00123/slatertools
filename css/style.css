@@ -3226,39 +3226,17 @@ body.boxed .is-sticky .main-navigation{
    7. Responsive Media Queries
 ================================================== */
 
-@media (min-width:1200px){
+@media (max-width:992px){
 	li.parallax {
-		background-size: contain;
+		background-size: cover;
+		background-position: left;
 	}
 }
 
 @media (min-width:1200px){
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-	.site-header .container, .main-navigation .container, .quote-teaser .container, .topbar .container{
-		width:100%;
-	}
-	.site-tagline{
-		display:none
-	}
-	.dd-menu > li{
-		margin-right:25px;
-	}
-	.site-header-right .dd-menu > li{
-		margin-left:25px;
-	}
-	.widget .btn-block{
-		padding-left:12px;
-		padding-right:12px;
-	}
-	.feature-text a{
-		font-size:inherit;
-	}
-	.counters .timer{
-		font-size:38px!important;
-	}
-}
-@media only screen and (max-width: 992px) {
+
+@media only screen and (max-width: 1200px) {
 	.pricing-column .features{
 		margin-bottom:0;
 	}
@@ -3333,7 +3311,7 @@ body.boxed .is-sticky .main-navigation{
 		float:left!Important;
 	}
 	.dd-menu{
-		display:none;
+		display:none !important;
 		position:absolute;
 		width:100%;
 		background:#555;
@@ -3344,7 +3322,7 @@ body.boxed .is-sticky .main-navigation{
 	.dd-menu > li{
 		width:100%;
 		float:none;
-		display:block;
+		display:none;
 	}
 	#menu-toggle{
 		display:inline-block;
