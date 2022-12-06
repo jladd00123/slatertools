@@ -3228,7 +3228,7 @@ body.boxed .is-sticky .main-navigation{
 
 @media (max-width:992px){
 	li.parallax {
-		background-size: cover;
+		background-size: 1100px 284px;
 		background-position: center;
 		
 	}
