@@ -3042,23 +3042,23 @@ body.boxed .is-sticky .main-navigation{
 }
 
 .parallax.hero1 {
-	background-image: url('/images/header_21a.jpg');
+	background-image: url('../images/header_21a.jpg');
 }
 
 .parallax.hero2 {
-	background-image: url('/images/header_22a.jpg');
+	background-image: url('../images/header_22a.jpg');
 }
 
 .parallax.hero3 {
-	background-image: url('/images/header_23a.jpg');
+	background-image: url('../images/header_23a.jpg');
 }
 
 .parallax.hero4 {
-	background-image: url('/images/header_24a.jpg');
+	background-image: url('../images/header_24a.jpg');
 }
 
 .parallax.hero5 {
-	background-image: url('/images/header_25a.jpg');
+	background-image: url('../images/header_25a.jpg');
 }
 
 .touch .parallax, .page-banner.parallax{
@@ -3253,23 +3253,23 @@ body.boxed .is-sticky .main-navigation{
 	}
 
 	li.parallax.hero1 {
-		background-image: url('/images/header_21b.jpg');
+		background-image: url('../images/header_21b.jpg');
 	}
 	
 	li.parallax.hero2 {
-		background-image: url('/images/header_22b.jpg');
+		background-image: url('../images/header_22b.jpg');
 	}
 	
 	li.parallax.hero3 {
-		background-image: url('/images/header_23b.jpg');
+		background-image: url('../images/header_23b.jpg');
 	}
 	
 	li.parallax.hero4 {
-		background-image: url('/images/header_24b.jpg');
+		background-image: url('../images/header_24b.jpg');
 	}
 	
 	li.parallax.hero5 {
-		background-image: url('/images/header_25b.jpg');
+		background-image: url('../images/header_25b.jpg');
 	}
 
 	.hero-slider, .hero-slider.flexslider ul.slides li {
